@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY . /app
 
-RUN pip install flask psutil 
+RUN pip install flask psutil mysql-connector-python
 
 EXPOSE 5000
 
